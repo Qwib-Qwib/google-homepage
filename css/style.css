@@ -36,7 +36,11 @@ body {
 }
 
 .form_container {
-
+    width: 584px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 .lang_container {
