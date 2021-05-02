@@ -44,5 +44,9 @@ body {
 }
 
 .lang_container {
+    align-self: center;
+}
+
+footer {
 
 }
