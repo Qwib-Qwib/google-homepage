@@ -12,6 +12,10 @@ body {
     justify-content: space-between;
 }
 
+a {
+    text-decoration-line: none;
+}
+
 header {
 
 }
@@ -33,7 +37,6 @@ nav {
     margin-top: 16px;
     font-weight: 400;
     line-height: 24px;
-    text-decoration-line: none;
     font-size: 13px;
     color: rgba(0, 0, 0, 0.87);
 }
@@ -51,6 +54,12 @@ nav {
     color: #fff;
     border: 0px;
     border-radius: 5px;
+}
+
+.logo_plus_form_container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .google_logo_container {
@@ -73,9 +82,25 @@ nav {
     align-self: center;
 }
 
+input {
+    height: 45px;
+    padding: 0px;
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: #dfe1e5;
+    background-color: #fff;
+    border-style: solid;
+    
+}
+
+.form_buttons {
+    margin: auto;
+}
+
 .lang_container {
 
     align-self: center;
+    font-size: 13px;
 }
 
 footer {
