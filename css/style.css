@@ -34,6 +34,11 @@ nav {
     line-height: 24px;
 }
 
+.nav_app {
+    background-color: #fff;
+    border: 0px;
+}   
+
 .nav_connexion {
     height: 36px;
     width: 117px;
