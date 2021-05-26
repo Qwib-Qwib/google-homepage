@@ -140,6 +140,10 @@ footer {
     grid-column-gap: 33px;
 }
 
+.link_footer_green a {
+    display: inline-block;
+}
+
 .leaf {
     width: 12.25px;
     height: 14px;
@@ -151,4 +155,12 @@ footer {
     grid-template-rows: auto;
     grid-column-gap: 33px
     ;
+}
+
+.bottom_footer a {
+    position: relative;
+    height: max-content;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
