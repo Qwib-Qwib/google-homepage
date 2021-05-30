@@ -145,6 +145,8 @@ footer {
 
 .link_footer_green a {
     display: inline-block;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 14px;
 }
 
 .leaf {
@@ -160,7 +162,7 @@ footer {
     ;
 }
 
-.bottom_footer a {
+.bottom_footer a:not(.link_footer_green a) {
     color: rgba(0, 0, 0, 0.54);
     font-size: 14px;    
     position: relative;
@@ -168,4 +170,12 @@ footer {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+.link_footer_green {
+    position: absolute;
+    left: 50%;
+    bottom: 12.5px;
+    -ms-transform: translateX(-50%) translateY(0%);
+    transform: translateX(-50%) translateY(0%);
 }
