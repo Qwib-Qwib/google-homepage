@@ -94,13 +94,15 @@ input {
 }
 
 .form_buttons {
-    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translateX(-50%) translateY(-68%);
+    transform: translateX(-50%) translateY(-68%);
 }
 
 .form_buttons button {
     background-color: #f8f9fa;
-    width: 150.717px;
-    height: 36px;
     margin: 11px 4px 11px 4px;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -109,6 +111,16 @@ input {
     font-family: liberation sans;
     font-size: 14px;
     line-height: 27px;
+}
+
+.button_recherche_google {
+    width: 150.717px;
+    height: 36px;
+}
+
+.button_chance {
+    width: 137.817px;
+    height: 36px;
 }
 
 .lang_container {
