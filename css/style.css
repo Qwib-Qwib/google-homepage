@@ -97,6 +97,20 @@ input {
     margin: auto;
 }
 
+.form_buttons button {
+    background-color: #f8f9fa;
+    width: 150.717px;
+    height: 36px;
+    margin: 11px 4px 11px 4px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 0px 16px 0px 16px;
+    color: #3c4043;
+    font-family: liberation sans;
+    font-size: 14px;
+    line-height: 27px;
+}
+
 .lang_container {
 
     align-self: center;
