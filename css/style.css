@@ -84,13 +84,15 @@ nav {
 
 input {
     height: 45px;
+    width: 584px;
     padding: 0px;
     border-width: 1px;
     border-radius: 25px;
     border-color: #dfe1e5;
     background-color: #fff;
     border-style: solid;
-    
+    position: relative;
+    bottom: 56px;
 }
 
 .form_buttons {
