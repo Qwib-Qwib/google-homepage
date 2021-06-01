@@ -16,10 +16,6 @@ a {
     text-decoration-line: none;
 }
 
-header {
-
-}
-
 nav {
     display: flex;
     flex-direction: row;
@@ -30,7 +26,6 @@ nav {
 .nav_item {
     margin-top: 12px;
     margin-left: 15px;
-
 }
 
 .nav_link {
@@ -84,7 +79,7 @@ nav {
     align-self: center;
 }
 
-input {
+.input_box {
     height: 45px;
     width: 584px;
     padding: 0px;
@@ -94,7 +89,26 @@ input {
     background-color: #fff;
     border-style: solid;
     position: relative;
-    bottom: 56px;
+    bottom: 56px;    
+}
+
+input {
+    height: 44px;
+    width: 518px;
+    padding: 0px;
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.input_box svg {
+    position: relative;
+    top: 13px;
+    left: 14px;
 }
 
 .form_buttons {
@@ -188,8 +202,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: auto;
-    grid-column-gap: 30px
-    ;
+    grid-column-gap: 30px;
 }
 
 .bottom_footer a:not(.link_footer_green a) {
