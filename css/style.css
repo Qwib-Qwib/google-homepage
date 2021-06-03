@@ -4,7 +4,7 @@ html {
     height: 100%;
 }
 
-body {
+body.index  {
     height: 100%;
     margin: 0 0 0 0;
     display: flex;
@@ -12,23 +12,23 @@ body {
     justify-content: space-between;
 }
 
-a {
+.index a {
     text-decoration-line: none;
 }
 
-nav {
+.index nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 17px;
 }
 
-.nav_item {
+.index .nav_item {
     margin-top: 12px;
     margin-left: 15px;
 }
 
-.nav_link {
+.index .nav_link {
     margin-top: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -36,12 +36,12 @@ nav {
     color: rgba(0, 0, 0, 0.87);
 }
 
-.nav_app {
+.index .nav_app {
     background-color: #fff;
     border: 0px;
 }   
 
-.nav_connexion {
+.index .nav_connexion {
     height: 36px;
     width: 117px;
     background-color: #1a73e8;
@@ -51,13 +51,13 @@ nav {
     border-radius: 5px;
 }
 
-.logo_plus_form_container {
+.index .logo_plus_form_container {
     margin: auto;
     display: flex;
     flex-direction: column;
 }
 
-.google_logo_container {
+.index .google_logo_container {
 
     align-self: center;
     width: 272px;
@@ -66,12 +66,12 @@ nav {
     bottom: 83px;
 }
 
-.google_logo {
+.index .google_logo {
     width: 100%;
     height: 100%;
 }
 
-.form_container {
+.index .form_container {
     width: 584px;
     height: 140px;
     display: flex;
@@ -79,7 +79,7 @@ nav {
     align-self: center;
 }
 
-.input_box {
+.index .input_box {
     height: 45px;
     width: 584px;
     padding: 0px;
@@ -92,7 +92,7 @@ nav {
     bottom: 56px;    
 }
 
-input {
+.index input {
     height: 44px;
     width: 518px;
     padding: 0px;
@@ -105,13 +105,13 @@ input {
     transform: translateY(-50%);
 }
 
-.input_box svg {
+.index .input_box svg {
     position: relative;
     top: 13px;
     left: 14px;
 }
 
-.form_buttons {
+.index .form_buttons {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -119,7 +119,7 @@ input {
     transform: translateX(-50%) translateY(-68%);
 }
 
-.form_buttons button {
+.index .form_buttons button {
     background-color: #f8f9fa;
     margin: 11px 4px 11px 4px;
     border: 1px solid #f8f9fa;
@@ -131,36 +131,36 @@ input {
     line-height: 27px;
 }
 
-.button_recherche_google {
+.index .button_recherche_google {
     width: 150.717px;
     height: 36px;
 }
 
-.button_chance {
+.index .button_chance {
     width: 137.817px;
     height: 36px;
 }
 
-.lang_container {
+.index .lang_container {
 
     align-self: center;
     font-size: 13px;
 }
 
-footer {
+.index footer {
     background-color: #f2f2f2;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.54);
     width: 100%;
 }
 
-.upper_footer {
+.index .upper_footer {
     position: relative;
     height: 47px;
     margin: 0px;
 }
 
-.upper_footer p {
+.index .upper_footer p {
     position: absolute;
     margin: 0px;
     padding-left: 30px;
@@ -169,7 +169,7 @@ footer {
     transform: translateY(-50%);
 }
 
-.bottom_footer {
+.index .bottom_footer {
     height: 47px;
     display: flex;
     justify-content: space-between;
@@ -180,32 +180,32 @@ footer {
     padding-right: 35px;
 }
 
-.links_footer_container_1 {
+.index .links_footer_container_1 {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: auto;
     grid-column-gap: 30px;
 }
 
-.link_footer_green a {
+.index .link_footer_green a {
     display: inline-block;
     color: rgba(0, 0, 0, 0.54);
     font-size: 14px;
 }
 
-.leaf {
+.index .leaf {
     width: 12.25px;
     height: 14px;
 }
 
-.links_footer_container_2 {
+.index .links_footer_container_2 {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: auto;
     grid-column-gap: 30px;
 }
 
-.bottom_footer a:not(.link_footer_green a) {
+.index .bottom_footer a:not(.link_footer_green a) {
     color: rgba(0, 0, 0, 0.54);
     font-size: 14px;    
     position: relative;
@@ -215,7 +215,7 @@ footer {
     transform: translateY(-50%);
 }
 
-.link_footer_green {
+.index .link_footer_green {
     position: absolute;
     left: 50%;
     bottom: 12.5px;
@@ -228,15 +228,12 @@ footer {
 
 
 
-.search_page {
+.search_page_body {
     display: inline;
 }
 
-.search_page .google_logo_container {
+.search_page_body .google_logo_container {
+    position: static;
     width: 92px;
     height: 30px;
-}
-
-.search_page nav {
-    display: inline;
 }
