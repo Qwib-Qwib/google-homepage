@@ -222,3 +222,21 @@ footer {
     -ms-transform: translateX(-50%) translateY(0%);
     transform: translateX(-50%) translateY(0%);
 }
+
+
+
+
+
+
+.search_page {
+    display: inline;
+}
+
+.search_page .google_logo_container {
+    width: 92px;
+    height: 30px;
+}
+
+.search_page nav {
+    display: inline;
+}
