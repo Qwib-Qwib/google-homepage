@@ -229,11 +229,94 @@ body.index  {
 
 
 .search_page_body {
-    display: inline;
+    margin: auto;
 }
 
 .search_page_body .google_logo_container {
-    position: static;
     width: 92px;
     height: 30px;
+    margin-left: 24px;
+    margin-top: 36px;
+}
+
+.search_page_body .google_logo {
+    width: 92px;
+    height: 30px;
+}
+
+.search_page_body .search_bar {
+    position: absolute;
+    left: 160px;
+    top: 25px;
+    width: fit-content;
+}
+
+.search_page_body .input_box {
+    height: 45px;
+    width: 690px;
+    padding: 0px;
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: transparent;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+    border-style: solid;
+}
+
+.search_page_body input {
+    height: 44px;
+    width: 450px;
+    padding: 0px;
+    border: none;
+    background-color: #fff;
+    position: relative;
+    left: 5%;
+}
+
+.search_page_body .cross {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 50%;
+    right: 66px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.search_page_body .mag_glass {
+    margin: 0px 0px 0px 0px;
+    padding: 2px 0px 2px 12px;
+    position: absolute;
+    top: 50%;
+    right: 17px;
+    border-left: 1px solid #dfe1e5;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.search_page_body .nav_google {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    top: 32px;
+    right: 40px;
+}   
+
+.search_page_body .nav_app {
+    background-color: #fff;
+    border: 0px;
+    margin: 3px 20px 0px 0px;
+    padding: 0px;
+}   
+
+.search_page_body .nav_connexion {
+    height: 36px;
+    width: 117px;
+    background-color: #1a73e8;
+    font-size: 14px;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
 }
