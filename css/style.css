@@ -270,7 +270,14 @@ body.index  {
     border: none;
     background-color: #fff;
     position: relative;
-    left: 5%;
+    left: 20px;
+}
+
+.search_page_body input::placeholder {
+    font-family: liberation sans;
+    color: #282828;
+    opacity: 1;
+    font-size: 16px;
 }
 
 .search_page_body .cross {
