@@ -1,3 +1,8 @@
+@font-face {
+    font-family: google_sans;
+    src: url(https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2);
+}
+
 html {
     font-family: arial, sans-serif;
     width: 100%;
@@ -326,4 +331,79 @@ body.index  {
     color: #fff;
     border: 0px;
     border-radius: 5px;
+}
+
+.search_page_body .nav_results svg {
+    height: 16px;
+    width: 16px;
+}
+
+.search_page_body .nav_results {
+    font-family: liberation sans;
+    font-size: 14px;
+    position: absolute;
+    left: 180px;
+    top: 102px;
+    display: flex;
+}
+
+.search_page_body .nav_results a {
+    text-decoration: none;
+    color: #5f6368;
+    margin-right: 24px;
+}
+
+.search_page_body .nav_results a p {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.search_page_body a.nav_results_tous {
+    color: #1a73e8;
+    width: 50.5px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 11px;
+    border-bottom: 3px solid #1a73e8;
+}
+
+.search_page_body a.nav_results_actualites {
+    width: 81.7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_page_body a.nav_results_maps {
+    width: 55.2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_page_body a.nav_results_videos {
+    width: 63.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_page_body a.nav_results_shopping {
+    width: 80.15px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.search_page_body a.nav_results_plus {
+    width: 39.2px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 32.5px;
+}
+
+.search_page_body a.nav_results_plus svg {
+    flex-shrink: 0;
+}
+
+.search_page_body header {
+    height: 96px;
+    border-bottom: 1px solid #ebebeb;
 }
