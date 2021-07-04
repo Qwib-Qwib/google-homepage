@@ -316,6 +316,17 @@ body.index  {
     right: 40px;
 }   
 
+.search_page_body .nav_parametres {
+    background-color: #fff;
+    width: 24px;
+    height: 24px;
+    fill: #3c4043;
+    align-self: center;
+    border: 0px;
+    margin: 0px 26px 0px 0px;
+    padding: 0px;
+}   
+
 .search_page_body .nav_app {
     background-color: #fff;
     border: 0px;
@@ -325,9 +336,11 @@ body.index  {
 
 .search_page_body .nav_connexion {
     height: 36px;
-    width: 117px;
+    width: 102px;
     background-color: #1a73e8;
     font-size: 14px;
+    font-family: google_sans;
+    letter-spacing: 0.25px;
     color: #fff;
     border: 0px;
     border-radius: 5px;
@@ -339,7 +352,7 @@ body.index  {
 }
 
 .search_page_body .nav_results {
-    font-family: liberation sans;
+    font-family: google_sans;
     font-size: 14px;
     position: absolute;
     left: 180px;
@@ -360,17 +373,25 @@ body.index  {
 
 .search_page_body a.nav_results_tous {
     color: #1a73e8;
-    width: 50.5px;
+    width: 50px;
     display: flex;
     justify-content: space-between;
     padding-bottom: 11px;
     border-bottom: 3px solid #1a73e8;
 }
 
+.search_page_body .nav_tous_svg {
+    align-self: center;
+}
+
 .search_page_body a.nav_results_actualites {
-    width: 81.7px;
+    width: 83.5px;
     display: flex;
     justify-content: space-between;
+}
+
+.search_page_body .nav_results_actualites svg {
+    padding-top: 1px;
 }
 
 .search_page_body a.nav_results_maps {
@@ -379,17 +400,29 @@ body.index  {
     justify-content: space-between;
 }
 
+.search_page_body .nav_results_maps svg {
+    padding-top: 1px;
+}
+
 .search_page_body a.nav_results_videos {
-    width: 63.5px;
+    width: 64px;
     display: flex;
     justify-content: space-between;
 }
 
+.search_page_body .nav_results_videos svg {
+    padding-top: 1px;
+}
+
 .search_page_body a.nav_results_shopping {
-    width: 80.15px;
+    width: 81px;
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
+}
+
+.search_page_body .nav_results_shopping svg {
+    padding-top: 1px;
 }
 
 .search_page_body a.nav_results_plus {
@@ -399,11 +432,102 @@ body.index  {
     margin-right: 32.5px;
 }
 
+.search_page_body .nav_results_plus svg {
+    padding-top: 1px;
+}
+
 .search_page_body a.nav_results_plus svg {
     flex-shrink: 0;
+}
+
+.search_page_body a.nav_results_outils {
+    width: 39.2px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 92px;
 }
 
 .search_page_body header {
     height: 96px;
     border-bottom: 1px solid #ebebeb;
+}
+
+.search_page_body .stats_results {
+    font-family: google_sans;
+    font-size: 14px;
+    color: #70757a;
+    line-height: 15px;
+    position: relative;
+    left: 180px;
+}
+
+.search_page_body span.bold {
+    font-weight: bold;
+}
+
+.search_page_body .search_results {
+    width: 600px;
+    line-height: 18px;
+    position: relative;
+    left: 180px;
+}
+
+.search_page_body .result_wix {
+    position: relative;
+    top: 8px;
+}
+
+.search_page_body .result a {
+    text-decoration: none;
+    font-family: liberation sans;
+    font-size: 14px;
+    color: black;
+}
+
+.search_page_body .result_wix_annonce_line {
+    display: flex;
+    flex-direction: row;
+}
+
+.search_page_body a.result_wix_annonce_element_1 {
+    font-weight: bold;
+    color: #202124;
+}
+
+.search_page_body a.result_wix_annonce_element_2 {
+    font-weight: bold;
+    color: #202124;
+    margin-left: 5px;
+}
+
+.search_page_body a.result_wix_annonce_element_3 {
+    color: #202124;
+    margin-left: 5px;
+}
+
+.search_page_body .arrow_menu {
+    height: 5px;
+    width: auto;
+    margin-left: 6px;
+    align-self: center;
+}
+
+.search_page_body a.result_blue_link {
+    text-decoration: none;
+    color: #1a0dab;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.search_page_body a.result_blue_link:visited {
+    color: #660099;
+}
+
+.search_page_body p.result_description {
+    font-family: liberation sans;
+    font-size: 14px;
+    line-height: 22.1167px;
+    color: #4d5156;
+    margin-top: 15px;
 }
