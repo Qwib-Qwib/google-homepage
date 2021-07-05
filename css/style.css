@@ -484,17 +484,17 @@ body.index  {
     color: black;
 }
 
-.search_page_body .result_wix_annonce_line {
+.search_page_body .result {
     display: flex;
     flex-direction: row;
 }
 
-.search_page_body a.result_wix_annonce_element_1 {
+.search_page_body a.result_annonce_element_1 {
     font-weight: bold;
     color: #202124;
 }
 
-.search_page_body a.result_wix_annonce_element_2 {
+.search_page_body a.result_annonce_element_2 {
     font-weight: bold;
     color: #202124;
     margin-left: 5px;
@@ -512,7 +512,7 @@ body.index  {
     align-self: center;
 }
 
-.search_page_body a.result_blue_link {
+.search_page_body a.result_blue_link:link {
     text-decoration: none;
     color: #1a0dab;
     font-size: 20px;
@@ -529,5 +529,40 @@ body.index  {
     font-size: 14px;
     line-height: 22.1167px;
     color: #4d5156;
-    margin-top: 15px;
+    margin-top: 15.5px;
+    margin-bottom: 0px;
+}
+
+.search_page_body .entry {
+    margin-top: 39px;
+}
+
+.search_page_body .entry_hosting {
+    margin-top: 31px;
+}
+
+.search_page_body .annonce_sublink_box {
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+.search_page_body a.annonce_sublink:link {
+    font-size: 14px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.search_page_body a.annonce_sublink:visited {
+    font-size: 14px;
+    color: #660099;
+    text-decoration: none;
+}
+
+.search_page_body .sublink_separator {
+    margin-left: 3.8px;
+    margin-right: 3.8px;
+    font-size: 14px;
+    color: #202124;
+    align-self: center;
 }
