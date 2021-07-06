@@ -467,6 +467,7 @@ body.index  {
 
 .search_page_body .search_results {
     width: 600px;
+    max-height: auto;
     line-height: 18px;
     position: relative;
     left: 180px;
@@ -487,6 +488,7 @@ body.index  {
 .search_page_body .result {
     display: flex;
     flex-direction: row;
+    margin-bottom: 10px;
 }
 
 .search_page_body a.result_annonce_element_1 {
@@ -516,8 +518,6 @@ body.index  {
     text-decoration: none;
     color: #1a0dab;
     font-size: 20px;
-    position: relative;
-    top: 10px;
 }
 
 .search_page_body a.result_blue_link:visited {
@@ -529,7 +529,7 @@ body.index  {
     font-size: 14px;
     line-height: 22.1167px;
     color: #4d5156;
-    margin-top: 15.5px;
+    margin-top: 5px;
     margin-bottom: 0px;
 }
 
@@ -538,7 +538,7 @@ body.index  {
 }
 
 .search_page_body .entry_hosting {
-    margin-top: 31px;
+    margin-top: 32px;
 }
 
 .search_page_body .annonce_sublink_box {
@@ -564,5 +564,34 @@ body.index  {
     margin-right: 3.8px;
     font-size: 14px;
     color: #202124;
+    align-self: center;
+}
+
+.search_page_body .entry_commercial {
+    margin-top: 32px;
+}
+
+.search_page_body .normal_entry {
+    margin-top: 36px;
+}
+
+.search_page_body a.result_normal_element_1 {
+    color: #202124;
+}
+
+.search_page_body a.result_normal_element_2 {
+    color: #5f6368;
+    margin-left: 4px;
+}
+
+.search_page_body a.traduire_page {
+    color: #1a0dab;
+    margin-left: 6px;
+}
+
+.search_page_body .arrow_menu_normal {
+    height: 5px;
+    width: auto;
+    margin-left: 7px;
     align-self: center;
 }
