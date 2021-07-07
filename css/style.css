@@ -595,3 +595,23 @@ body.index  {
     margin-left: 7px;
     align-self: center;
 }
+
+.search_page_body time {
+    color: #70757a;
+}
+
+.search_page_body .recherches_associees {
+    height: 110px;
+    width: 600px;
+    padding: 0px 0px 0px 0px;
+    margin-top: 15px;
+    margin-left: 180px;
+    border: 1px solid #e0e2e5;
+}   
+
+.search_page_body .titre_rech_assoc {
+    color: #6e6e6e;
+    font-family: liberation sans;
+    font-size: 14px;
+    font-weight: bold;
+}
