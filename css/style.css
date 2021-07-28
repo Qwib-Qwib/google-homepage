@@ -235,6 +235,9 @@ body.index  {
 
 .search_page_body {
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .search_page_body .google_logo_container {
@@ -448,7 +451,7 @@ body.index  {
 }
 
 .search_page_body header {
-    height: 96px;
+    height: 132px;
     border-bottom: 1px solid #ebebeb;
 }
 
@@ -601,7 +604,7 @@ body.index  {
 }
 
 .search_page_body .recherches_associees {
-    height: 110px;
+    height: 266px;
     width: 600px;
     padding: 0px 0px 0px 0px;
     margin-top: 60px;
@@ -640,4 +643,36 @@ body.index  {
 
 .search_page_body .mag_glass_assoc {
     margin: 0px 25px 0px 30px;
+}
+
+.search_page_body .pages_count {
+    margin-left: 180px;
+    width: 652px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search_page_body .google_logo_pages {
+    width: 270px;
+    height: 35px;
+}
+
+.search_page_body footer {
+    margin-left: 180px;
+    width: fit-content;
+}
+
+.search_page_body .upper_footer {
+    height: 55px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.search_page_body .bottom_footer {
+    height: 55px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
 }
