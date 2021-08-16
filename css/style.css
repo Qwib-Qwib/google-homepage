@@ -660,9 +660,68 @@ body.index  {
     height: 35px;
 }
 
+.search_page_body .numbered_pages {
+    width: 270px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 11.7px;
+    padding-left: 40px;
+}
+
+.search_page_body .numbered_pages a{
+    color: #4285f4;
+    text-decoration: none;
+}
+
+.search_page_body a.current_page {
+    color: #212121;
+}
+
+.search_page_body a.trois {
+    position: relative;
+    left: 1px;
+}
+
+.search_page_body a.quatre {
+    position: relative;
+    left: 1px;
+}
+
+.search_page_body a.cinq {
+    position: relative;
+    left: 2px;
+}
+
+.search_page_body a.six {
+    position: relative;
+    left: 2px;
+}
+
+.search_page_body a.sept {
+    position: relative;
+    left: 2px;
+}
+
+.search_page_body a.huit {
+    position: relative;
+    left: 3px;
+}
+
+.search_page_body a.neuf {
+    position: relative;
+    left: 3px;
+}
+
+.search_page_body a.next_page {
+    position: relative;
+    left: 25px;
+}
+
 .search_page_body footer {
     width: fit-content;
     background-color: #f2f2f2;
+    margin-top: 45px;
 }
 
 .search_page_body .upper_footer {
